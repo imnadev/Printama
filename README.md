@@ -255,7 +255,7 @@ allprojects {
 version: <img src="https://img.shields.io/jitpack/v/github/anggastudio/Printama">
 ```gradle
 dependencies {
-  implementation 'com.github.anggastudio:Printama:<version>'
+  implementation 'com.github.imnadev:Printama:<version>'
 ```
 #### Other like Maven, SBT, Leiningen
 **just visit the jitpack page**
