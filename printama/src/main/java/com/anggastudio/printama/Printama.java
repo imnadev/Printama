@@ -121,13 +121,13 @@ public class Printama {
     public void printTest() {
         printama.connect(printama -> {
             printama.setNormalText();
-            printama.printTextln("------------------", Printama.CENTER);
-            printama.printTextln("Print Test", Printama.CENTER);
-            printama.printTextln("------------------", Printama.CENTER);
+            printama.printText(testText);
             printama.feedPaper();
             printama.close();
         });
     }
+
+    public static String testText = "";
 
     //----------------------------------------------------------------------------------------------
     // PRINTER LIST OVERLAY
