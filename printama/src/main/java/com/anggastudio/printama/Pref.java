@@ -11,7 +11,7 @@ public class Pref {
         // empty constructor
     }
 
-    static String SAVED_DEVICE = "bonded_device";
+    public static String SAVED_DEVICE = "bonded_device";
     private static SharedPreferences sharedPreferences;
 
     static void init(Context context) {
