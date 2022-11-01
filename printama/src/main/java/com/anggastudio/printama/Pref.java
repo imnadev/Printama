@@ -5,13 +5,13 @@ import android.content.SharedPreferences;
 
 import androidx.preference.PreferenceManager;
 
-class Pref {
+public class Pref {
 
     private Pref(){
         // empty constructor
     }
 
-    static final String SAVED_DEVICE = "bonded_device";
+    static String SAVED_DEVICE = "bonded_device";
     private static SharedPreferences sharedPreferences;
 
     static void init(Context context) {
@@ -31,5 +31,4 @@ class Pref {
         editor.putString(key, value);
         editor.apply();
     }
-
 }
